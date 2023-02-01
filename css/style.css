@@ -1,0 +1,14 @@
+.tab {
+    overflow: hidden;
+    border: .5px solid rgb(209, 209, 209);
+    background-color: #f1f1f1;
+    margin-left: 5em;
+}
+
+.tab1 {
+    padding-left: 1em;
+}
+
+section {
+    background-color: rgb(121, 203, 231);
+}
