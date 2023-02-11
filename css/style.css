@@ -208,7 +208,7 @@ a.linked {
     padding: 15px 25px;
     border-radius: 5px;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
     background-image: linear-gradient(-50deg, var(--darkBlue), var(--lightBlue), var(--lavenderBlue), var(--iceBlue));
     box-shadow: 2px 3px 20px var(--greyBlue);
 }
