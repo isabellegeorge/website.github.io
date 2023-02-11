@@ -2,24 +2,30 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-
+<script src="js/style.js "></script>
 <!-- Navigation Bar-->
-<nav>
-    <a href="index.html">Welcome</a>
-    <a href="about.html">About</a>
-    <a href="experience.html">Experience</a>
-    <a href="contact.html">Contact</a>
-</nav>
+<div class="dropdown" id="pages">
+
+    <nav>
+        <a class="linked" href="index.html ">Welcome</a>
+        <!-- <a class="linked" href="about.html ">About</a> -->
+        <a class="linked" href="experience.html ">Experience</a>
+        <a class="linked" href="contact.html ">Contact</a>
+    </nav>
+</div>
 
 
+
+<!-- Section -->
+<section>
+<!-- Heading -->
 <h1>Experience</h1>
 
-<body>
-    <section>
-        Experiences:
-    </section>
-
+<!-- Table -->
     <table class="tab">
         <tr class="tab1">
             <th>Company </th>
@@ -38,15 +44,31 @@
             <td>Performance Engineer</td>
             <td>June 2021</td>
             <td>August 2021</td>
-
         </tr>
-
-
     </table>
-    <img alt="logo of ibm" src="img/ibm.png" style="width:45%">
-    <img alt="logo of wells fargo" src="img/wells-fargo.png" style="width:45%">
 
+    <!-- Non-Decorative Image -->
+    <p><img alt="logo for ibm"  class="smallImgBtn" src="img/ibm.png">
+    <div>
+       IBM is a technology company with a worldwide presence. 
+       Read more about
 
-</body>
+       <!-- Hyperlink -->
+        <a class="reg-link" href="https://www.ibm.com/about"> 
+            IBM's impact, history, and work-life. 
+        </a>
+    <!-- </p> -->
+    </div>
 
+    <!-- Non-Decorative Image -->
+    <img alt="the logo for wells fargo"  class="smallImgBtn" src="img/wells-fargo.png">
+   
+    <div class="scroll-container-button"> 
+        <a href="#top">
+            <img class='imgBtn' src='img/up-arrow.png' alt='scroll to top of page arrow' />
+        </a>
+
+    </div>
+
+</section>
 </html>
