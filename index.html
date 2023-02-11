@@ -6,45 +6,113 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
-   <script src="js/style.js "></script>
    <!-- Navigation Bar-->
-   <div class="dropdown" id="pages">
-      <nav>
-         <a class="linked" href="index.html ">Welcome</a>
-         <!-- <a class="linked" href="about.html ">About</a> -->
-         <a class="linked" href="experience.html ">Experience</a>
-         <a class="linked" href="contact.html">Contact</a>
-      </nav>
-   </div>
-
+   <head>
+      <div class="dropdown" id="pages">
+         <nav>
+            <a class="linked" href="index.html ">Welcome</a>
+            <!-- <a class="linked" href="about.html ">About</a> -->
+            <a class="linked" href="experience.html ">Experience</a>
+            <a class="linked" href="contact.html">Contact</a>
+         </nav>
+      </div>
+      <!-- Heading -->
+      <h1>Welcome</h1>
+   </head>
    <!-- <body> -->
-      <!-- Section -->
-      <section>
-         <!-- Heading -->
-         <h1>Welcome</h1>
-                  
-         <!-- Decorative Image -->
-         <p><img class="smallestImgBtn"  alt="" src="img/decorative-photo.png "></p>
-         <!-- Recognizable Picture of my Face -->
-         <img class='smallImgBtn' alt="logo for texas a&m university " src="img/isabelle.jpg ">
-         </br>
-         <!-- Information about me and my interests in accessibility -->
-         <div>Hello, I am 
-            <!-- Semantic Text Emphasis: strong -->
-            <strong>Isabelle</strong> 
-            
-            <p>I am a senior studying Computer Science at Texas A&M University. My interests include Full-Stack Software Engineering. I am particularly interested in accessibility's, because it is important to make software inclusive to all.</p> </div>
-         <!-- Non-Decorative Image -->
-         <img class="smallerImgBtn"  alt="logo for texas a&m university " src="img/tamu.png ">
-
-         <div class="scroll-container-button">
-            <a href="#top">
-            <img class='imgBtn' src='img/up-arrow.png' alt='buttonpng' />
-            </a>
-         </div>
-
-      </section>
-
-
+   <!-- Section -->
+   <section>
+      <h2>Hello!</h2>
+      <!-- Decorative Image -->
+      <div><img class="smallestImgBtn"  alt="" src="img/decorative-photo.png "></div>
+      <!-- Recognizable Picture of my Face -->
+      <img class='smallImgBtn' alt="logo for texas a&m university " src="img/isabelle.jpg ">
+      </br>
+      <!-- Information about me and my interests in accessibility -->
+      <div>
+         I am 
+         <!-- Semantic Text Emphasis: strong -->
+         <strong>Isabelle</strong> 
+         <p>I am a senior studying Computer Science at Texas A&M University. My interests include Full-Stack Software Engineering. I am particularly interested in accessibility's, because it is important to make software inclusive to all.</p>
+      </div>
+      <!-- Non-Decorative Image -->
+      <img class="smallerImgBtn"  alt="logo for texas a&m university " src="img/tamu.png ">
+      <!-- Decorative Image -->
+      <div><img class="smallestImgBtn"  alt="" src="img/decorative-photo.png "></div>
+   </section>
+   <!-- Section -->
+   <section>
+      <!-- Heading -->
+      <h2>Experience</h2>
+      <div>
+         <!-- Table -->
+         <table class="tab">
+            <tr class="tab1">
+               <th>Company </th>
+               <th>Position (Intern)</th>
+               <th>Start Date</th>
+               <th>End Date</th>
+            </tr>
+            <tr>
+               <td>IBM</td>
+               <td>Software Engineer</td>
+               <td>May 2022</td>
+               <td>Current</td>
+            </tr>
+            <tr>
+               <td>Wells Fargo</td>
+               <td>Performance Engineer</td>
+               <td>June 2021</td>
+               <td>August 2021</td>
+            </tr>
+         </table>
+      </div>
+      <!-- Non-Decorative Image -->
+      <p><img alt="logo for ibm"  class="smallImgBtn" src="img/ibm.png">
+      <div>
+         IBM is a technology company with a worldwide presence. 
+         Read more about
+         <!-- Hyperlink -->
+         <a class="reg-link" href="https://www.ibm.com/about"> 
+         IBM's impact, history, and work-life. 
+         </a>
+      </div>
+      <!-- Non-Decorative Image -->
+      <img alt="the logo for wells fargo"  class="smallImgBtn" src="img/wells-fargo.png">
+      <!-- Decorative Image -->
+      <div><img class="smallestImgBtn"  alt="" src="img/decorative-photo.png "></div>
+   </section>
+   <!-- Section -->
+   <section>
+      <!-- Heading -->
+      <h2>Contact</h2>
+      <!-- Contact Form -->
+      <h3> Fill out the Form Below!</h3>
+      <div>
+         <form action="malito:isabelle_george@tamu.edu" method="post">
+            <h4>Name:</h4>
+            <input type="text" aria-label="text box for name" placeholder="example: isabelle" name="first_name" />
+            <h4>E-mail:</h4>
+            <input type="text" aria-label="text box for e-mail entry" placeholder="example: isabelle@gmail.com" name="email" />
+            <h4>Subject:</h4>
+            <input type="text" aria-label="text box for subject" placeholder="example: Following Up" name="subject"/>
+            <h4>Message:</h4>
+            <input type="text" name="body" aria-label="text box for e-mail message" placeholder="example: message here">
+            </input>
+            <button type="submit" aria-label="submit form" >Submit Form </button>
+         </form>
+      </div>
+      <h2>Other Ways to Contact Me!</h2>
+      <p>
+      <div>
+         <!-- Lists -->
+         <ul>
+            <li>email: isabelle_george@tamu.edu</li>
+            <li>phone: (832)-693-4779</li>
+            <li>other methods of contact: TBD</li>
+         </ul>
+      </div>
+      </p>
+   </section>
    <!-- </body> -->
 </html>
