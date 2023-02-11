@@ -185,7 +185,6 @@ nav {
 .dropdown a {
     /* display: block;  */
     color: var(--darkNavy);
-    text-decoration: none;
     background: var(--doveBlue);
     width: 100px;
     text-align: center;
